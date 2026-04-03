@@ -2,7 +2,7 @@
 
 > A browser game set inside an SMS Gurugram classroom. Bhawana Ma'am sleeps at her desk — when she does, it's chaos time. Do pranks, earn points, survive her wake cycles, and WIN. Play solo or with friends via multiplayer!
 
-**[▶ Play Now](https://OjiTheChamp.github.io/school-mischief/)** ← replace with your username after deploying
+**[▶ Play Now](https://ojithechamp.github.io/school-mischief/index.html)** ← replace with your username after deploying
 
 ---
 
