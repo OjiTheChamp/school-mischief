@@ -2,7 +2,7 @@
 
 > A browser game set inside an SMS Gurugram classroom. Bhawana Ma'am sleeps at her desk — when she does, it's chaos time. Do pranks, earn points, survive her wake cycles, and WIN. Play solo or with friends via multiplayer!
 
-**[▶ Play Now](https://ojithechamp.github.io/index/)** 
+**[▶ Play Now](https://ojithechamp.github.io/school-mischief/)** 
 ---
 
 ## 🎮 Controls
@@ -62,60 +62,3 @@
 - Duplicate names blocked (case-insensitive)
 - Up to 8 players in one room
 
----
-
-## 🚀 Deploy to GitHub Pages
-
-### Quick (no terminal needed)
-1. Create a new repo at [github.com/new](https://github.com/new) — name it `school-mischief`
-2. Click **uploading an existing file** → drag all files from this zip
-3. Go to **Settings → Pages → Source: GitHub Actions**
-4. Done! Live at `https://yourusername.github.io/school-mischief/`
-
-### With Git
-```bash
-git clone https://github.com/yourusername/school-mischief
-cd school-mischief
-# copy files here
-git add .
-git commit -m "initial"
-git push
-```
-Then enable **Settings → Pages → Source: GitHub Actions**.
-
-Every future `git push` to `main` auto-redeploys in ~60 seconds.
-
----
-
-## 🌐 Multiplayer Guide
-
-1. Both players open the same game URL
-2. Click **🌐 Multi** on the main menu or in the powerup bar
-3. **Host:** Enter your name → Host Game → share the 8-character room code
-4. **Join:** Enter your name → Join Game → paste the code → Join
-5. Start the same difficulty — all players appear as coloured stickmen
-
-> Names must be unique — joining with the same name as another player will be rejected.
-
----
-
-## 📁 Project Structure
-
-```
-school-mischief/
-├── index.html              ← Entire game (~120KB, zero dependencies)
-├── README.md               ← This file
-├── LICENSE                 ← MIT License
-├── .gitignore
-└── .github/
-    └── workflows/
-        └── deploy.yml      ← Auto-deploy to GitHub Pages on push
-```
-
-**No build tools. No npm. No server. Just one HTML file.**
-
----
-
-## 📝 License
-
-MIT — use, share, and modify freely.
